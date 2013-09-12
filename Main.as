@@ -22,7 +22,7 @@
 			//trace("c'est le temps d'ajouter une bibitte");
 			var uneBibitte:MovieClip = new Bibitte();
 			addChild(uneBibitte);
-			if(stage.frameRate<=60){stage.frameRate += 2};
+			if(stage.frameRate<=60){stage.frameRate += 4};
 			//trace(stage.frameRate);
 		}
 		public function oublierBibitte(laBibitte:MovieClip):void{
